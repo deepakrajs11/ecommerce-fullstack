@@ -1,0 +1,44 @@
+# ==========================
+# Spring Boot / Java
+# ==========================
+
+# Ignore target folders for all microservices
+api/**/target/
+api/**/out/
+api/**/logs/
+api/**/*.log
+
+# Ignore compiled classes
+*.class
+
+# Ignore IDE/project files
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+.settings/
+
+# ==========================
+# Node / Frontend
+# ==========================
+web/node_modules/
+web/.next/
+web/dist/
+web/build/
+web/.env.local
+web/.env.development.local
+web/.env.test.local
+web/.env.production.local
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Git
+# ==========================
+# Ignore system files
