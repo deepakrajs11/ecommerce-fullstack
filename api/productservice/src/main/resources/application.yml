@@ -1,0 +1,10 @@
+spring:
+  application:
+  name: productservice
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: ecommerceDB
+      authentication-database: admin
+      uri: mongodb://localhost:27017/ecommerceDB
