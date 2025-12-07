@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: productservice
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/ecommerceDB
+      database: ecommerceDB
+server:
+  port: 8082

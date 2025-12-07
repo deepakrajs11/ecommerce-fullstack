@@ -1,17 +1,16 @@
-package com.ecommerce.productservice.model;
+package com.ecommerce.productservice.dto;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
+import lombok.NoArgsConstructor;
 
 import java.util.List;
 import java.util.Map;
 
 @Data
-@Document(collection = "products")
-public class Product {
-    @Id
-    private String id;
+@AllArgsConstructor
+@NoArgsConstructor
+public class ProductRequestDto {
     private String name;
     private String description;
     private double price;
